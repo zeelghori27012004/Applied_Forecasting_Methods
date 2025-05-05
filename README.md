@@ -32,12 +32,12 @@ of average monthly temperature data is dated from January
 taken from kaggle
 
 **Data format**
-The dataset used in this study, titled GlobalLandTemperaturesByMajorCity.csv, contains long-term monthly average
+The dataset used in this study, titled GlobalLandTemperaturesByMajorCity.csv, contains long-term monthly average
 land surface temperatures for major global cities, including
 Delhi. Provided in CSVformat, the dataset comprises over
 23,000 records and 7 columns. The key columns include
-the observation date (dt), average temperature (AverageTemperature), uncertainty (AverageTemperatureUncertainty), city,
-country, and geographical coordinates (Latitude and Longitude). The average temperature is recorded in degrees Celsius.
+the observation date (dt), average temperature (AverageTemperature), uncertainty (AverageTemperatureUncertainty), city,
+country, and geographical coordinates (Latitude and Longitude). The average temperature is recorded in degrees Celsius.
 
 **Data Resolution and Granularity**
 Temperature values are recorded at a monthly resolution,
@@ -61,7 +61,7 @@ Seasonal patterns remained consistent, with peak temperatures
 in May–June and lows in December–January. Statistical measures like skewness and kurtosis provided deeper insights into
 temperature distribution, highlighting the prevalence of warm
 anomalies and changes in extreme events. Deseasonalization
-techniques, such as seasonal decomposition and differencing, effectively removed cyclic patterns to expose underlying
+techniques, such as seasonal decomposition and differencing, effectively removed cyclic patterns to expose underlying
 trends. ARIMA and SARIMA models effectively captured
 both seasonal and non-seasonal patterns in the data. Residual
 diagnostics showed minimal autocorrelation and approximate
@@ -71,9 +71,9 @@ forecasting error. Overall, the study demonstrated the value
 of time series analysis in climate research and forecasting,
 offering meaningful insights into Delhi’s changing climate and
 showcasing robust methods to analyze long-term environmental trends.
-However, despite their strengths, traditional statistical models like SARIMA face notable limitations in handling large
+However, despite their strengths, traditional statistical models like SARIMA face notable limitations in handling large
 datasets and complex seasonal patterns—particularly when
-multiple seasonalities are present. This necessitates the exploration of deep learning models, which offer greater flexibility
+multiple seasonalities are present. This necessitates the exploration of deep learning models, which offer greater flexibility
 and efficiency. Models like RNN, LSTM, and GRU leverage
 sequential learning and internal memory to capture intricate
 temporal dependencies and nonlinear relationships in the
