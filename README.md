@@ -41,10 +41,10 @@ country, and geographical coordinates (Latitude and Longitude). The average temp
 
 **Data Resolution and Granularity**
 Temperature values are recorded at a monthly resolution,
-allowing decadal and seasonal aggregation for trend analysis
-.
+allowing decadal and seasonal aggregation for trend analysis.
+
 **Data cleaning and processing**
-Rows with missing values or NaN values in Average MonthlyTemperature column were estimated using interpolation technique.
+Rows with missing values or NaN values in Average MonthlyTemperature column were estimated using interpolation technique.
 
 **Temporal coverage**
 Although the dataset spans from 1743 to 2013, this study
