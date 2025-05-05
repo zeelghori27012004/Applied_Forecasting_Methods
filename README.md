@@ -10,7 +10,7 @@ using Jupyter Notebooks and showed that Delhi is getting warmer
 over time. Several techniques such as moving average, seasonal
 decomposition, and differencing were used to better understand
 the data. The SARIMA model was then used to predict future
-temperatures. Deep Learning models were implemented to improve the prediction.
+temperatures. Deep Learning models were implemented to improve the prediction.
 
 **Index Terms**—Time Series Analysis, Outliers, Skewness,
 Warming Trend, Deseasonalization, SARIMA Model, Deep
@@ -19,7 +19,7 @@ Learning, LSTM, RNN, GRU
 **INTRODUCTION**
 Understanding temperature changes is important to monitor
 the climate and plan for the future. This report explains how
-we studied monthly temperature data of Delhi [1] using time
+we studied monthly temperature data of Delhi using time
 series analysis. We used simple tools and methods to look at
 how temperatures have changed and to predict how they might
 change in the future.
@@ -58,7 +58,7 @@ baseline and strengthens the validity of long-term trend analysis.
 The study concluded a clear long-term warming trend from the
 1980s onward, along with increased temperature variability.
 Seasonal patterns remained consistent, with peak temperatures
-in May–June and lows in December–January. Statistical measures like skewness and kurtosis provided deeper insights into
+in May–June and lows in December–January. Statistical measures like skewness and kurtosis provided deeper insights into
 temperature distribution, highlighting the prevalence of warm
 anomalies and changes in extreme events. Deseasonalization
 techniques, such as seasonal decomposition and differencing, effectively removed cyclic patterns to expose underlying
@@ -79,7 +79,7 @@ sequential learning and internal memory to capture intricate
 temporal dependencies and nonlinear relationships in the
 data. Their implementation showed promising improvements
 in predictive accuracy, especially when non-linear functions
-and hidden layers were introduced. While baseline and linear models offered valuable benchmarks, the deep learning
+and hidden layers were introduced. While baseline and linear models offered valuable benchmarks, the deep learning
 models, even on modest datasets, outperformed them in terms
 of error metrics like MAE. These findings reinforce the
 growing importance of integrating deep learning approaches
