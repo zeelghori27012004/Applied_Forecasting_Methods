@@ -52,7 +52,7 @@ focuses on the period from 1950 to 2013 due to improved
 data quality and consistency. Data prior to 1950 contains
 more missing values and higher uncertainty, reflecting limited
 observational coverage. Starting from 1950 ensures a reliable
-baseline and strengthens the validity of long-term trend analysis.
+baseline and strengthens the validity of long-term trend analysis.
 
 **CONCLUSION**
 The study concluded a clear long-term warming trend from the
@@ -70,7 +70,7 @@ SARIMA model demonstrated better performance with lower
 forecasting error. Overall, the study demonstrated the value
 of time series analysis in climate research and forecasting,
 offering meaningful insights into Delhi’s changing climate and
-showcasing robust methods to analyze long-term environmental trends.
+showcasing robust methods to analyze long-term environmental trends.
 However, despite their strengths, traditional statistical models like SARIMA face notable limitations in handling large
 datasets and complex seasonal patterns—particularly when
 multiple seasonalities are present. This necessitates the exploration of deep learning models, which offer greater flexibility
