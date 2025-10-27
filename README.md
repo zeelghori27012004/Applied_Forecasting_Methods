@@ -56,7 +56,7 @@ baseline and strengthens the validity of long-term trend analysis.
 
 **CONCLUSION**
 The study concluded a clear long-term warming trend from the
-1980s onward, along with increased temperature variability.
+1950s onward, along with increased temperature variability.
 Seasonal patterns remained consistent, with peak temperatures
 in May–June and lows in December–January. Statistical measures like skewness and kurtosis provided deeper insights into
 temperature distribution, highlighting the prevalence of warm
